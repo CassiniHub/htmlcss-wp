@@ -44,6 +44,10 @@ header{
   color: grey;
 }
 
+#main-nav li a:hover{
+  color: black;
+}
+
 /* MAIN */
 /* JUMBOTRON */
 .jumbotron{
@@ -174,11 +178,10 @@ p.p-color{
 
 /* FOOTER */
 footer{
+  height: 80px;
+
   text-align: center;
   line-height: 80px;
-
-  /* debug rules */
-  height: 80px;
 }
 
 #love{
