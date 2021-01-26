@@ -7,6 +7,9 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
 
 .center{
   width: 80%;
@@ -19,10 +22,9 @@
   clear: both;
 }
 
-/* HEADER RULES*/
-header{
-}
 
+
+/* HEADER RULES*/
 /* LOGO */
 #logo{
   width: 150px;
@@ -47,6 +49,8 @@ header{
 #main-nav li a:hover{
   color: black;
 }
+
+
 
 /* MAIN */
 /* JUMBOTRON */
@@ -101,6 +105,8 @@ header{
   border-radius: 10px;
 }
 
+
+
 /* CONTENT */
 /* HEADING */
 .content-heading{
@@ -127,7 +133,7 @@ header{
   margin-right: 2%;
 }
 
-/* ASIDE */
+/* ASIDE / MAIN ARTICLE */
 .aside{
   width: 20%;
 }
@@ -169,7 +175,6 @@ p.p-color{
 
 /* MAIN ARTICLE */
 .content{
-  /* debug rules */
   width: 56%;
   margin-bottom: 25px;
 }
@@ -178,10 +183,10 @@ p.p-color{
 
 /* FOOTER */
 footer{
-  height: 80px;
+  height: 70px;
 
   text-align: center;
-  line-height: 80px;
+  line-height: 70px;
 }
 
 #love{
