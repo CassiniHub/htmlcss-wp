@@ -26,6 +26,25 @@ header{
   background-color: pink;
 }
 
+#logo{
+  width: 150px;
+  height: auto;
+
+  padding-bottom: 20px;
+}
+
+#main-nav li{
+  display: inline-block;
+  list-style-type: none;
+
+  padding-right: 15px;
+}
+
+#main-nav li a{
+  text-decoration: none;
+  color: grey;
+}
+
 /* MAIN */
 /* JUMBOTRON */
 .jumbotron{
