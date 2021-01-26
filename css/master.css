@@ -98,6 +98,7 @@ header{
 }
 
 /* CONTENT */
+/* HEADING */
 .content-heading{
   margin-bottom: 25px;
 }
@@ -116,6 +117,7 @@ header{
   color: grey;
 }
 
+/* ARTICLES */
 .col{
   float: left;
   height: 500px;
@@ -123,13 +125,40 @@ header{
   background-color: lightblue;
 }
 
+/* ASIDE */
 .aside{
-  /* debug rules */
   width: 20%;
 }
 
 .aside:last-child{
   margin-right: 0;
+}
+
+.article-img{
+  position: relative;
+  width: 100%;
+
+  margin-bottom: 25px;
+}
+
+.article-img img{
+  display: block;
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.article-text{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h3.heading-color{
+  color: black;
+}
+
+p.p-color{
+  color: grey;
 }
 
 .content{
