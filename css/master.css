@@ -21,9 +21,6 @@
 
 /* HEADER RULES*/
 header{
-  /* debug rules */
-  height: 100px;
-  background-color: pink;
 }
 
 #logo{
