@@ -23,6 +23,7 @@
 header{
 }
 
+/* LOGO */
 #logo{
   width: 150px;
   height: auto;
@@ -30,6 +31,7 @@ header{
   padding-bottom: 20px;
 }
 
+/* NAV */
 #main-nav li{
   display: inline-block;
   list-style-type: none;
@@ -45,8 +47,8 @@ header{
 /* MAIN */
 /* JUMBOTRON */
 .jumbotron{
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   /* debug rules*/
   height: 500px;
   background-color: #ffef6b;
@@ -96,11 +98,22 @@ header{
 }
 
 /* CONTENT */
-.title{
+.content-heading{
   margin-bottom: 25px;
-  /* debug rules */
-  height: 80px;
-  background-color: lightblue;
+}
+
+.content-heading .title{
+  font-size: 32px;
+  font-weight: bolder;
+
+  color: black;
+}
+
+.content-heading .subtitle{
+  font-size: 18px;
+  font-weight: normal;
+
+  color: grey;
 }
 
 .col{
