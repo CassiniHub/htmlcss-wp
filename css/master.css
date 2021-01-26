@@ -161,11 +161,14 @@ p.p-color{
   color: grey;
 }
 
+/* MAIN ARTICLE */
 .content{
   /* debug rules */
   width: 56%;
   margin-bottom: 25px;
 }
+
+
 
 /* FOOTER */
 footer{
