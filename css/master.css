@@ -120,9 +120,7 @@ header{
 /* ARTICLES */
 .col{
   float: left;
-  height: 500px;
   margin-right: 2%;
-  background-color: lightblue;
 }
 
 /* ASIDE */
@@ -137,6 +135,7 @@ header{
 .article-img{
   position: relative;
   width: 100%;
+  height: 300px;
 
   margin-bottom: 25px;
 }
@@ -144,6 +143,9 @@ header{
 .article-img img{
   display: block;
   width: 100%;
+  height: 100%;
+
+  object-fit: cover;
 
   border-radius: 10px;
 }
@@ -172,7 +174,14 @@ p.p-color{
 
 /* FOOTER */
 footer{
+  text-align: center;
+  line-height: 80px;
+
   /* debug rules */
-  height: 60px;
-  background-color: purple;
+  height: 80px;
+}
+
+#love{
+  font-size: 24px;
+  color: red;
 }
